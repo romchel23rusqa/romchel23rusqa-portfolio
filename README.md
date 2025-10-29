@@ -1,4 +1,4 @@
-<img style="height:auto;" alt="View belyakovko's full-sized avatar" src="photo_2025-10-10_13-17-57.jpg" width="260" height="260" class="avatar avatar-user width-full border color-bg-default">
+<img style="height:auto;" alt="View belyakovko's full-sized avatar" src="photo_2025-10-10_13-17-57.jpg" width="300" height="240" class="avatar avatar-user width-full border color-bg-default">
 
 # Привет! 👋
 ### Меня зовут Роман — QA Инженер
