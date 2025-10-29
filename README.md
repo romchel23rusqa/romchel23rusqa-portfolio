@@ -1,4 +1,4 @@
-<img src='https://user-gen-media-assets.s3.amazonaws.com/seedream_images/d25c4e5f-a7a0-456d-8680-ed6969be2bd2.png' width='140' style='float:right; border-radius:50%'>
+<img style="height:auto;" alt="View belyakovko's full-sized avatar" src="https://avatars.githubusercontent.com/u/127777833?v=4" width="260" height="260" class="avatar avatar-user width-full border color-bg-default">
 
 # Привет! 👋
 ### Меня зовут Роман — QA Инженер
