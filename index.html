@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>romchel23rusqa - Портфолио</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.1em;
+            color: #666;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .card ul {
+            list-style-position: inside;
+            margin-left: 10px;
+        }
+        
+        .card li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .skill-tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .projects {
+            margin-top: 30px;
+        }
+        
+        .project-item {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .project-item h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .project-item p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .social-links a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>타й 킵лю! Й Роман</h1>
+            <p>Фулл-стек разработчик | Python Developer | Frontend Developer</p>
+        </header>
+        
+        <div class="content">
+            <div class="card">
+                <h2>🙋 Обо мне</h2>
+                <p>Привет! Я энтузиаст в области веб-разработки и чистому коде. Люблю решать сложные задачи и всегда готов к обучению.</p>
+            </div>
+            
+            <div class="card">
+                <h2>📄 Навыки</h2>
+                <div class="skills">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">HTML/CSS</span>
+                    <span class="skill-tag">Django</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">REST API</span>
+                    <span class="skill-tag">Docker</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>🌟 Основные достижения</h2>
+                <ul>
+                    <li>✅ Окончил курс React</li>
+                    <li>✅ Опубликовал 5+ проектов</li>
+                    <li>✅ Контрибютор Open Source</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card projects">
+            <h2>💻 Получающие проекты</h2>
+            
+            <div class="project-item">
+                <h3>🔍 Todo App</h3>
+                <p>Приложение для управления задачами с автосахранением</p>
+                <p><strong>Технологии:</strong> React, JavaScript, localStorage</p>
+            </div>
+            
+            <div class="project-item">
+                <h3>🛵 Weather App</h3>
+                <p>Чтение погоды с апи OpenWeather</p>
+                <p><strong>Технологии:</strong> React, REST API, CSS</p>
+            </div>
+            
+            <div class="project-item">
+                <h3>📚 Blog Platform</h3>
+                <p>Платформа для создания блогов с автентификацией</p>
+                <p><strong>Технологии:</strong> Django, PostgreSQL, REST API</p>
+            </div>
+        </div>
+        
+        <footer>
+            <h3>📄 Контакты</h3>
+            <div class="social-links">
+                <a href="https://github.com/romchel23rusqa" target="_blank">👋 GitHub</a>
+                <a href="https://t.me/romchel23rusqa" target="_blank">📱 Telegram</a>
+                <a href="mailto:your.email@example.com">📧 Email</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">💼 LinkedIn</a>
+            </div>
+            <p style="margin-top: 20px; color: #999; font-size: 0.9em;">© 2025 romchel23rusqa. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
